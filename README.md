@@ -117,4 +117,4 @@ Initiated by **黎肖谊** as an independent public-interest research project. T
 
 ## License
 
-See [`LICENSE.md`](LICENSE.md). The proposed release uses **CC BY 4.0** for text/data and **Apache-2.0** for code. Before public release, maintainers may choose CC0 for text/data if frictionless reuse is more important than attribution.
+See [`LICENSE.md`](LICENSE.md). HDHC v0.1 uses **CC BY 4.0** for documentation, benchmark data, and other non-code content, and **Apache-2.0** for source code and scripts.
