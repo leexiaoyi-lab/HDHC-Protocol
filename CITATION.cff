@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use HDHC or its benchmark, please cite this project and the specific release/commit used."
+title: "HDHC: Human Dignity × Harm Containment"
+type: software
+version: 0.1.0
+date-released: 2026-09-13
+authors:
+  - name: "黎肖谊 (Lee Xiao Yi)"
+abstract: "An experimental, testable framework for harm containment with minimum sufficient intervention, reversibility, correction capacity, and return paths."
+license: CC-BY-4.0
+repository-code: "https://github.com/leexiaoyi-lab/HDHC-Protocol"

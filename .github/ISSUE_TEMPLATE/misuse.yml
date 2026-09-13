@@ -1,0 +1,16 @@
+name: Protocol Misuse / Safety Concern
+description: Report a way HDHC could be abused or create harm.
+title: "[SAFETY] "
+labels: ["safety", "misuse"]
+body:
+  - type: textarea
+    id: concern
+    attributes: {label: Concern}
+    validations: {required: true}
+  - type: textarea
+    id: impact
+    attributes: {label: Potential harm}
+    validations: {required: true}
+  - type: textarea
+    id: mitigation
+    attributes: {label: Suggested mitigation or test}

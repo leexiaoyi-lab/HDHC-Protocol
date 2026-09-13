@@ -1,0 +1,29 @@
+name: Counterexample / New Eval Case
+description: Submit a case designed to break or stress HDHC.
+title: "[CASE] "
+labels: ["eval", "counterexample"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Use fictionalized or de-identified facts. Do not post private personal data.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence state
+      options: [observed_confirmed, credible_high_confidence, mixed_ambiguous, allegation_only, speculative]
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: What might HDHC get wrong here?
+    validations:
+      required: true
+  - type: textarea
+    id: principle
+    attributes:
+      label: Which principle is being stressed?

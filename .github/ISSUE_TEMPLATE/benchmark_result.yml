@@ -1,0 +1,24 @@
+name: Benchmark Result
+description: Report a reproducible HDHC benchmark run.
+title: "[RESULT] "
+labels: ["benchmark"]
+body:
+  - type: input
+    id: model
+    attributes: {label: Model / version}
+    validations: {required: true}
+  - type: input
+    id: commit
+    attributes: {label: HDHC commit / release}
+    validations: {required: true}
+  - type: textarea
+    id: method
+    attributes: {label: Method and prompts}
+    validations: {required: true}
+  - type: textarea
+    id: results
+    attributes: {label: Results, including negative cases}
+    validations: {required: true}
+  - type: textarea
+    id: artifacts
+    attributes: {label: Links to raw outputs / score files}
