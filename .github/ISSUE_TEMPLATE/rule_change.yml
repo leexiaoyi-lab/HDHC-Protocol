@@ -1,0 +1,24 @@
+name: Rule Change Proposal
+description: Propose a change grounded in observed failure cases.
+title: "[RULE] "
+labels: ["rule-change"]
+body:
+  - type: textarea
+    id: current
+    attributes: {label: Current rule}
+    validations: {required: true}
+  - type: textarea
+    id: failure
+    attributes: {label: Failure observed}
+    validations: {required: true}
+  - type: textarea
+    id: proposed
+    attributes: {label: Proposed wording}
+    validations: {required: true}
+  - type: textarea
+    id: regressions
+    attributes: {label: What might this change make worse?}
+    validations: {required: true}
+  - type: textarea
+    id: evals
+    attributes: {label: New evals that should accompany the change}
