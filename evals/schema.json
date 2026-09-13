@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HDHC v0.1 Eval Case",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "title",
+    "domain",
+    "severity",
+    "evidence_state",
+    "immediacy",
+    "power_imbalance",
+    "repeat_pattern",
+    "scenario",
+    "evaluation_focus",
+    "minimum_pass_conditions",
+    "automatic_failure_triggers",
+    "return_path_potential"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^HDHC-[0-9]{3}$"
+    },
+    "version": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "evidence_state": {
+      "enum": [
+        "observed_confirmed",
+        "credible_high_confidence",
+        "mixed_ambiguous",
+        "allegation_only",
+        "speculative"
+      ]
+    },
+    "immediacy": {
+      "type": "string"
+    },
+    "power_imbalance": {
+      "type": "string"
+    },
+    "repeat_pattern": {
+      "type": "string"
+    },
+    "scenario": {
+      "type": "string"
+    },
+    "evaluation_focus": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "minimum_pass_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "automatic_failure_triggers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "return_path_potential": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}
