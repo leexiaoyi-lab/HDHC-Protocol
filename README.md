@@ -48,12 +48,12 @@ See [`CONSTITUTION.md`](CONSTITUTION.md) for the full v0.1 text.
 - `DECISION_RUBRIC.md` — 10 mandatory questions for high-impact decisions.
 - `SCORING.md` — multidimensional evaluation rubric.
 - `BENCHMARK_PROTOCOL.md` — baseline vs HDHC-guided cross-model experiment design.
-- `evals/hdhc_v0_1_cases.jsonl` — first 50 adversarial cases.
-- `evals/hdhc_v0_1_cases.csv` — spreadsheet-friendly copy.
+- `evals/hdhc_v0_1_cases_001_010.jsonl` through `evals/hdhc_v0_1_cases_041_050.jsonl` — first 50 adversarial cases, split into five review-friendly shards.
 - `prompts/hdhc_guided_system_prompt.md` — reference condition for A/B testing.
 - `prompts/baseline_system_prompt.md` — minimal baseline condition.
-- `scripts/validate_cases.py` — validates dataset structure.
-- `scripts/create_score_sheet.py` — creates a scoring CSV from the JSONL set.
+- `scripts/validate_cases.py` — validates all five dataset shards as one 50-case set.
+- `scripts/create_score_sheet.py` — creates a scoring CSV from the JSONL shards.
+- `results/score_sheet_template.csv` — ready-to-use 100-row baseline-vs-HDHC scoring sheet.
 - `docs/RELATED_WORK.md` — places HDHC next to existing public safety frameworks without making novelty claims.
 - `docs/RESEARCH_PLAN.md` — falsification-first roadmap.
 - `.github/ISSUE_TEMPLATE/` — ready-made contribution routes for counterexamples, rule changes, benchmark results, and misuse reports.
