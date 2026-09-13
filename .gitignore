@@ -1,0 +1,12 @@
+# Local/private material — never commit
+private/
+internal/
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+.DS_Store
+__pycache__/
+*.pyc
