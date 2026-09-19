@@ -111,6 +111,14 @@ Please submit:
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+## Contact / reporting
+
+For **public, reproducible** benchmark results, counterexamples, and non-sensitive protocol concerns, please open a GitHub Issue using the provided templates.
+
+For **private, embargoed, or sensitive** research disclosures, contact **hdhc.protocol@outlook.com** and disclose only the minimum information necessary for triage. Do not send passwords, API keys, authentication tokens, private keys, or unrelated personal data.
+
+See [`SECURITY.md`](SECURITY.md) for reporting guidance.
+
 ## Origin
 
 Initiated by **黎肖谊** as an independent public-interest research project. This public package was prepared with AI-assisted drafting and adversarial-evaluation design.
